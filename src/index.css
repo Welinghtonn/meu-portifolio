@@ -28,13 +28,6 @@ a{
 	border-right: 50px solid #ffffff;
 }
 
-main{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-}
-
 .Dropdown-Mobile{
 	display: none;
 }
@@ -45,28 +38,3 @@ main{
 	}
 }
 
-.Lado-azul{
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	width: 50%;
-	height: 100vh;
-
-	font-size: 60px;
-
-	color: #efeaff;
-	background-color: #00001b;
-}
-
-.Lado-white{
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	width: 50%;
-	height: 100vh;
-
-	font-size: 60px;
-
-	color: #00001b;
-	background-color: #efeaff;
-}

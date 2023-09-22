@@ -7,6 +7,7 @@ import { Container_fundo } from '../styles/Container';
 import { Sobre_mim } from '../styles/Sobre-mim';
 import { Contato } from '../styles/Contato';
 import { Footer } from '../styles/Footer';
+import { Main } from '../styles/Main';
 import Container from '../components/container';
 
 import formulario from '../assents/Formulario.png';
@@ -30,7 +31,7 @@ function Home() {
                 <div className='Dropdown-Mobile'>
                     <Dropdown
                         overlay={(
-                            <DropDown>
+                            <>
                                 <DropDown key="0">
                                     <a href="#SOBRE-MIM"> Sobre Mim</a>
                                 </DropDown>
@@ -40,7 +41,8 @@ function Home() {
                                 <DropDown key="1">
                                     <a href="#CONTATO">Contatos</a>
                                 </DropDown>
-                            </DropDown>
+                            </>
+
                         )}
                         trigger={['click']}>
                         <div
@@ -51,7 +53,7 @@ function Home() {
                 </div>
             </Header>
             <div className="border">
-                <main>
+                <Main>
                     <div className="Lado-azul">
                         <p>Port</p>
                     </div>
@@ -59,7 +61,7 @@ function Home() {
                     <div className="Lado-white">
                         <p>fólio</p>
                     </div>
-                </main>
+                </Main>
                 <Sobre_mim>
                     <h1 id="SOBRE-MIM">Sobre Mim</h1>
                     <Container />
